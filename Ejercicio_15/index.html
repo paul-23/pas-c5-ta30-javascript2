@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Visor de Imágenes</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="thumbnails">
+        <img
+          src="./img/foto1.jpg"
+          alt="Imagen 1"
+          onclick="changeImage('./img/foto1.jpg', this.alt)"
+        />
+        <img
+          src="./img/foto2.jpg"
+          alt="Imagen 2"
+          onclick="changeImage('./img/foto2.jpg', this.alt)"
+        />
+        <img
+          src="./img/foto3.jpg"
+          alt="Imagen 3"
+          onclick="changeImage('./img/foto3.jpg', this.alt)"
+        />
+        <img
+          src="./img/foto4.jpg"
+          alt="Imagen 4"
+          onclick="changeImage('./img/foto4.jpg', this.alt)"
+        />
+      </div>
+      <div class="thumbnails">
+        <img
+          src="./img/foto5.jpg"
+          alt="Imagen 5"
+          onclick="changeImage('./img/foto5.jpg', this.alt)"
+        />
+        <img
+          src="./img/foto6.jpg"
+          alt="Imagen 6"
+          onclick="changeImage('./img/foto6.jpg', this.alt)"
+        />
+        <img
+          src="./img/foto7.jpg"
+          alt="Imagen 7"
+          onclick="changeImage('./img/foto7.jpg', this.alt)"
+        />
+        <img
+          src="./img/foto8.jpg"
+          alt="Imagen 8"
+          onclick="changeImage('./img/foto8.jpg', this.alt)"
+        />
+      </div>
+      <div class="viewer">
+        <img id="bigImage" src="./img/foto1.jpg" alt="Imagen 1" />
+        <h1 id="caption">Imagen 1</h1>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2;
+  max-width: 120px;
+}
+
+.thumbnails img {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.viewer {
+  margin: 0 50px;
+  text-align: center;
+}
+
+.viewer img {
+  max-width: 100%;
+  height: auto;
+}
+
+#caption {
+  margin-top: 10px;
+}
